@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{4975CBBA-BE02-44AA-A83C-77A47F844F3D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Grass/EmptyClass.cs">
+    <Files>
+      <File FileName="Grass/Program.cs" Line="3" Column="1" />
+      <File FileName="Grass/EmptyClass.cs" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Grass" expanded="True">
+            <Node name="Grass" expanded="True">
+              <Node name="EmptyClass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Grass PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
