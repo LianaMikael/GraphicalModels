@@ -30,6 +30,11 @@ The code for this project is provided in Grass folder.
 For more information about this example, see:
 - [Theoretical tutorial with grass/rain/sprinkler example](https://www.cs.ubc.ca/~murphyk/Bayes/bnintro.html)
 - [Discussion with example where the code is adapted from](https://social.microsoft.com/Forums/en-US/dcffcf8d-fb15-4236-98fd-9d4a5b19e03a/example-of-bayesian-network-migrated-from-communityresearchmicrosoftcom?forum=infer.net)
-- For more non-technical explanations [Model-Based Machine Learning book](https://mbmlbook.com/)
+
+## Skills Assessment 
+
+This problem is taken from [Model-Based Machine Learning book](https://mbmlbook.com/). Please refer to this book for many great examples and non-technical explanations. 
+
+The code for this project is provided in SkillsAssessment folder.
 
   

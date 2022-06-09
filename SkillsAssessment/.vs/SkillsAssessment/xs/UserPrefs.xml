@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{4BC09E49-BDCE-4201-94D7-8A1DB54FD0CC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SkillsAssessment/Variables.cs">
+    <Files>
+      <File FileName="SkillsAssessment/Program.cs" Line="123" Column="1" />
+      <File FileName="SkillsAssessment/Variables.cs" Line="2" Column="1" />
+      <File FileName="SkillsAssessment/Inference.cs" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SkillsAssessment" expanded="True">
+            <Node name="SkillsAssessment" expanded="True">
+              <Node name="Variables.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SkillsAssessment PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
