@@ -1,6 +1,7 @@
 # Inference in Probabilistic Graphical Models
 
 This repo explores inference in Probabilistic Graphical Models using Infer.NET in C#.
+[Infer.Net]((https://dotnet.github.io/infer/default.html)) is a framework for performing inference in graphical models. Here we explore several examples following [Infer.NET User Guide](https://dotnet.github.io/infer/userguide/).  
 
 # Getting Started
 
