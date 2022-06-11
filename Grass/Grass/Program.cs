@@ -69,7 +69,10 @@ namespace Grass
             Console.WriteLine("P(sprinkler | grass is wet, not cloudy)=" + sprinklerGivenWetGrassNotCLoudy);
 
             // case 3: we observe wet grass and rain
-            // explaining away case to show that rain and sprinkler are conditionally dependent given wetGrass 
+            // explaining away case to show that rain and sprinkler are conditionally dependent given wetGrass
+
+            cloudy.ClearObservedValue(); // clear previously observed value for this experiment 
+
             wetGrass.ObservedValue = true;
             var sprinklerGivenWetGrassNoInfo = engine.Infer(sprinkler);
 
