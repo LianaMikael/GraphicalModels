@@ -45,17 +45,6 @@ namespace GameOutcomes
 
         }
 
-        private static object GetGameOutcome()
-        {
-            var JPerf = Variable.GaussianFromMeanAndVariance(15, 25).Named("JillsPerformance");
-            var FPerf = Variable.GaussianFromMeanAndVariance(12.5, 25).Named("FredsPerformance");
-
-            var Jwins = JPerf > FPerf;
-
-            var engine = new InferenceEngine();
-            return engine.Infer(Jwins);
-        }
-
         private static (double, double, double) GetStatistics(double[] samples)
         {
             double mean = (double) samples.Sum() / samples.Length;
