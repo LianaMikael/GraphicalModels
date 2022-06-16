@@ -10,8 +10,8 @@ namespace GameOutcomes
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Self-assessment 3.1. ");
+             
+            Console.WriteLine("Self-assessment 3.1 ");
             Console.WriteLine("3.1.1");
 
             (double[] samples, double set1Perc, double set2Perc, double set3Perc) = ComputeSamplePercentages(0, 1, 10000);
@@ -26,8 +26,23 @@ namespace GameOutcomes
             Console.WriteLine("Variance:          " + variance);
             Console.WriteLine("Standard Devation: " + std);
 
+            GameModel gameModel = new GameModel();
+
             Console.WriteLine("3.1.5");
-            Console.WriteLine("P(JWins|JPerf, FPerf)=" + GetGameOutcome());
+            Console.WriteLine("P(JWins|JPerf, FPerf)=" + gameModel.gameOutcome);
+
+            Console.WriteLine("Self-assessment 3.4 ");
+            Console.WriteLine("3.3.4");
+            SkillModel JWinsmodel = new SkillModel(true);
+
+            Console.WriteLine("P(Jskill|JWins)=" + JWinsmodel.JSkillPredicted);
+            Console.WriteLine("P(Fskill|JWins)=" + JWinsmodel.FSkillPredicted);
+
+            SkillModel FWinsmodel = new SkillModel(false);
+
+            Console.WriteLine("P(Jskill|FWins)=" + FWinsmodel.JSkillPredicted);
+            Console.WriteLine("P(Fskill|FWins)=" + FWinsmodel.FSkillPredicted);
+
         }
 
         private static object GetGameOutcome()

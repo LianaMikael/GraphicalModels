@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{85A84694-9DC3-4CAF-A5DE-E423D7B757FE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GameOutcomes/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameOutcomes/GameModel.cs">
     <Files>
-      <File FileName="GameOutcomes/Program.cs" Line="1" Column="1" />
+      <File FileName="GameOutcomes/Program.cs" Line="45" Column="40" />
+      <File FileName="GameOutcomes/SkillModel.cs" Line="28" Column="1" />
+      <File FileName="GameOutcomes/GameModel.cs" Line="14" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GameOutcomes" expanded="True">
             <Node name="GameOutcomes" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="GameModel.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -17,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.GameOutcomes FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.GameOutcomes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
