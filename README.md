@@ -1,7 +1,7 @@
 # Inference in Probabilistic Graphical Models
 
 This repo explores inference in Probabilistic Graphical Models using Infer.NET in C#.
-[Infer.Net]((https://dotnet.github.io/infer/default.html)) is a framework for performing inference in graphical models. Here we explore several examples following [Infer.NET User Guide](https://dotnet.github.io/infer/userguide/).  
+[Infer.Net]((https://dotnet.github.io/infer/default.html)) is a framework for performing inference in graphical models. Here we explore several examples following [Infer.NET User Guide](https://dotnet.github.io/infer/userguide/) and [Model-Based Machine Learning book](https://mbmlbook.com/).  
 
 # Getting Started
 
@@ -38,4 +38,9 @@ This problem is taken from [Model-Based Machine Learning book](https://mbmlbook.
 
 The code for this project is provided in SkillsAssessment folder.
 
+## Game Outcomes
+
+Here we explore the **Chapter 3. Meeting Your Match** from [Model-Based Machine Learning book](https://mbmlbook.com/). 
+
+The code for exercises from the book are given in GameOutcomes folder. 
   
