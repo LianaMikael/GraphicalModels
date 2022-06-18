@@ -31,7 +31,7 @@ namespace GameOutcomes
             Console.WriteLine("3.1.5");
             Console.WriteLine("P(JWins|JPerf, FPerf)=" + gameModel.gameOutcome);
 
-            Console.WriteLine("Self-assessment 3.4 ");
+            Console.WriteLine("Self-assessment 3.3 ");
             Console.WriteLine("3.3.4");
             SkillModel JWinsmodel = new SkillModel(true);
 
@@ -42,6 +42,20 @@ namespace GameOutcomes
 
             Console.WriteLine("P(Jskill|FWins)=" + FWinsmodel.JSkillPredicted);
             Console.WriteLine("P(Fskill|FWins)=" + FWinsmodel.FSkillPredicted);
+
+            Console.WriteLine("Self-assessment 3.4 ");
+            Console.WriteLine("3.4.2");
+            ThreePlayerModel P1P2Model = new ThreePlayerModel(true, true);
+
+            Console.WriteLine("P(Player1Skill|Player1Wins, Player2Wins)=" + P1P2Model.Player1SkillPredicted);
+            Console.WriteLine("P(Player2Skill|Player1Wins, Player2Wins)=" + P1P2Model.Player2SkillPredicted);
+            Console.WriteLine("P(Player3Skill|Player1Wins, Player2Wins)=" + P1P2Model.Player3SkillPredicted);
+
+            ThreePlayerModel Model = new ThreePlayerModel(false, true);
+
+            Console.WriteLine("P(Player1Skill|Player1Wins, Player2Wins)=" + Model.Player1SkillPredicted);
+            Console.WriteLine("P(Player2Skill|Player1Wins, Player2Wins)=" + Model.Player2SkillPredicted);
+            Console.WriteLine("P(Player3Skill|Player1Wins, Player2Wins)=" + Model.Player3SkillPredicted);
 
         }
 
