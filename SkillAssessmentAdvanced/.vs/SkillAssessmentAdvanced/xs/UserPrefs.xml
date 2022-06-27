@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{8CF1A20C-59D2-4EB0-B921-4C925C7451CE}|Default">
+  <MonoDevelop.Ide.ItemProperties.SkillAssessmentAdvanced PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SkillAssessmentAdvanced/DataCollection.cs">
+    <Files>
+      <File FileName="SkillAssessmentAdvanced/Program.cs" Line="18" Column="29" />
+      <File FileName="SkillAssessmentAdvanced/RealDataModel.cs" Line="38" Column="42" />
+      <File FileName="SkillAssessmentAdvanced/Inference.cs" Line="22" Column="1" />
+      <File FileName="SkillAssessmentAdvanced/DataCollection.cs" Line="37" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SkillAssessmentAdvanced" expanded="True">
+            <Node name="SkillAssessmentAdvanced" expanded="True">
+              <Node name="DataCollection.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="SkillAssessmentAdvanced" expanded="True" selected="True">
+            <Node name="SkillAssessmentAdvanced" expanded="True">
+              <Node name="SkillAssessmentAdvanced" expanded="True" />
+              <Node name="SkillsAssessment" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
