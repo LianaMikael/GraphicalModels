@@ -1,7 +1,7 @@
 # Inference in Probabilistic Graphical Models
 
 This repo explores inference in Probabilistic Graphical Models using Infer.NET in C#.
-[Infer.Net]((https://dotnet.github.io/infer/default.html)) is a framework for performing inference in graphical models. Here we explore several examples following [Infer.NET User Guide](https://dotnet.github.io/infer/userguide/) and [Model-Based Machine Learning book](https://mbmlbook.com/).  
+[Infer.Net]((https://dotnet.github.io/infer/default.html)) is a framework for performing inference in graphical models. Here we explore several examples following [Infer.NET User Guide](https://dotnet.github.io/infer/userguide/) and [Model-Based Machine Learning book (MBML)](https://mbmlbook.com/).  
 
 # Getting Started
 
@@ -34,9 +34,13 @@ For more information about this example, see:
 
 ## Skills Assessment 
 
-This problem is taken from [Model-Based Machine Learning book](https://mbmlbook.com/). Please refer to this book for many great examples and non-technical explanations. 
+This problem is taken from [MBML](https://mbmlbook.com/). Please refer to this book for many great examples and non-technical explanations. 
 
 The code for this project is provided in SkillsAssessment folder.
+
+### Skills Assessment (Real-world example)
+
+The skills assessment model applied to real-world data. Explores the use of **VariableArrays**, for more information, refer to [the guide](https://dotnet.github.io/infer/userguide/Arrays%20and%20ranges.html). The code is given in SkillAssessmentAdnaced folder.
 
 ## Game Outcomes
 
