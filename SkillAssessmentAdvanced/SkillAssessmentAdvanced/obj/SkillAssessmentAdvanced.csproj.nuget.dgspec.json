@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lianamikaelyan/Desktop/github projects/Inference in Graphical Models/SkillAssessmentAdvanced/SkillAssessmentAdvanced/SkillAssessmentAdvanced.csproj": {}
+    "/Users/liana/Desktop/MBML/GraphicalModels/SkillAssessmentAdvanced/SkillAssessmentAdvanced/SkillAssessmentAdvanced.csproj": {}
   },
   "projects": {
-    "/Users/lianamikaelyan/Desktop/github projects/Inference in Graphical Models/SkillAssessmentAdvanced/SkillAssessmentAdvanced/SkillAssessmentAdvanced.csproj": {
+    "/Users/liana/Desktop/MBML/GraphicalModels/SkillAssessmentAdvanced/SkillAssessmentAdvanced/SkillAssessmentAdvanced.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lianamikaelyan/Desktop/github projects/Inference in Graphical Models/SkillAssessmentAdvanced/SkillAssessmentAdvanced/SkillAssessmentAdvanced.csproj",
+        "projectUniqueName": "/Users/liana/Desktop/MBML/GraphicalModels/SkillAssessmentAdvanced/SkillAssessmentAdvanced/SkillAssessmentAdvanced.csproj",
         "projectName": "SkillAssessmentAdvanced",
-        "projectPath": "/Users/lianamikaelyan/Desktop/github projects/Inference in Graphical Models/SkillAssessmentAdvanced/SkillAssessmentAdvanced/SkillAssessmentAdvanced.csproj",
-        "packagesPath": "/Users/lianamikaelyan/.nuget/packages/",
-        "outputPath": "/Users/lianamikaelyan/Desktop/github projects/Inference in Graphical Models/SkillAssessmentAdvanced/SkillAssessmentAdvanced/obj/",
+        "projectPath": "/Users/liana/Desktop/MBML/GraphicalModels/SkillAssessmentAdvanced/SkillAssessmentAdvanced/SkillAssessmentAdvanced.csproj",
+        "packagesPath": "/Users/liana/.nuget/packages/",
+        "outputPath": "/Users/liana/Desktop/MBML/GraphicalModels/SkillAssessmentAdvanced/SkillAssessmentAdvanced/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/lianamikaelyan/.config/NuGet/NuGet.Config"
+          "/Users/liana/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

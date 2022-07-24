@@ -7,16 +7,18 @@ namespace SkillAssessmentAdvanced
     {
         static void Main(string[] args)
         {
-            // collect data from csv file
-            DataCollection dataCollection = new DataCollection(
-                "LearningSkills_6LearningTheGuessProbabilitiesComparison_Experiments-Original-Inputs-RawResponsesAsDictionary.csv",
-                "LearningSkills_6LearningTheGuessProbabilitiesComparison_Experiments-Original-Inputs-Quiz-SkillsQuestionsMask.csv",
-                22, 7, 48);
+            var dataCollection = new DataCollection {
+                FileName = "/Users/liana/Desktop/MBML/GraphicalModels/SkillAssessmentAdvanced/LearningSkills_6LearningTheGuessProbabilitiesComparison_Experiments-Original-Inputs-RawResponsesAsDictionary.csv",
+                QuestionSkillsFile = "/Users/liana/Desktop/MBML/GraphicalModels/SkillAssessmentAdvanced/LearningSkills_6LearningTheGuessProbabilitiesComparison_Experiments-Original-Inputs-Quiz-SkillsQuestionsMask.csv",
+                PeopleNum = 22,
+                SkillNum = 7,
+                QuestionNum = 48
+            };
 
             dataCollection.CollectData();
             dataCollection.CollectSkillsNeeded();
             dataCollection.CheckAnswers();
-
+         
             var skillsGroundTruth = dataCollection.SkillsGroundTruth;
             var skillsNeeded = dataCollection.SkillsNeeded;
             var answersIsCorrect = dataCollection.AnswersIsCorrect;
@@ -31,7 +33,7 @@ namespace SkillAssessmentAdvanced
                 SkillsPrior = 0.5,
                 SkillsNeeded = skillsNeeded,
                 IsCorrect = answersIsCorrect,
-                SkillNumPerQuestion = skillNumPerQuestion
+                SkillNumPerQuestion = skillNumPerQuestion,
             };
 
             realDataModel.ConstructModel();
